@@ -1,0 +1,31 @@
+<hr />
+<h3><p *ngIf="!brokerages"><em>You are not authorized ...</em></p></h3>
+<!--<h2>{{Title}}</h2>-->
+<hr />
+
+<table class='table' *ngIf="brokerages">
+    <thead>
+        <tr>
+
+            <th>BrokerageId</th>
+            <th>BrokerageName</th>
+            <th>Street</th>
+            <th>City</th>
+            <th>PostalCode</th>
+            <th>Phone</th>
+            <th>Website</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let brokerage of brokerages">
+            <td>{{ brokerage.pBrokerageId }}</td>
+            <td>{{ brokerage.pBrokerageName }}</td>
+            <td>{{ brokerage.Street }}</td>
+            <td>{{ brokerage.City}}</td>
+            <td>{{ brokerage.PostalCode }}</td>
+            <td>{{ brokerage.Phone }}</td>
+            <td>{{ brokerage.Website }}</td>
+        </tr>
+    </tbody>
+</table>
+

@@ -1,0 +1,30 @@
+<p *ngIf="!brokers"><em>Loading...</em></p>
+
+<h2>Brokers</h2>
+
+<table class='table' *ngIf="brokers">
+    <thead>
+        <tr>
+
+            <th>BrokerId</th>
+            <th>BrokerageId</th>
+            <th>FirstName</th>
+            <th>LastName</th>
+            <th>Phone</th>
+            <th>Email</th>
+            <th>ImageUrl</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let broker of brokers">
+            <td>{{ broker.pBrokerId }}</td>
+            <td>{{ broker.pBrokerageId }}</td>
+            <td>{{ broker.FirstName }}</td>
+            <td>{{ broker.LastName }}</td>
+            <td>{{ broker.Phone }}</td>
+            <td>{{ broker.Email}}</td>
+            <td>{{ broker.ImageUrl }}</td>
+        </tr>
+    </tbody>
+</table>
+

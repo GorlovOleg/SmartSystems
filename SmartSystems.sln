@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartSystems", "SmartSystems\SmartSystems.csproj", "{9560D2DD-065D-49E2-A783-7C42B4227FEA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartSystemsTests", "SmartSystemsTests\SmartSystemsTests.csproj", "{86E60F48-E554-4E7B-8C51-80A9184362D9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9560D2DD-065D-49E2-A783-7C42B4227FEA} = {9560D2DD-065D-49E2-A783-7C42B4227FEA}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9560D2DD-065D-49E2-A783-7C42B4227FEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9560D2DD-065D-49E2-A783-7C42B4227FEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9560D2DD-065D-49E2-A783-7C42B4227FEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9560D2DD-065D-49E2-A783-7C42B4227FEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86E60F48-E554-4E7B-8C51-80A9184362D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86E60F48-E554-4E7B-8C51-80A9184362D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86E60F48-E554-4E7B-8C51-80A9184362D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86E60F48-E554-4E7B-8C51-80A9184362D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E250EE9-3460-4808-9CE9-3508028D69EB}
+	EndGlobalSection
+EndGlobal
