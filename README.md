@@ -13,20 +13,3 @@
 * [5]MS SQL (Express) and Azure SQL Server Script Create and Populate DataBase.
 * [6]Web Services: WebAPI implementation SPA DI Repositories Busines Access Layer (BAL), Data Access Layer (DAL), Presentation Layer Angular as conception without pretention  full  implementation
 * [7]Done ASP.NET Core 2 Identity
-
-
-
-## RabbitMQ .NET Client [![Build status](https://ci.appveyor.com/api/projects/status/33srpo7owl1h3y4e?svg=true)](https://ci.appveyor.com/project/rabbitmq/rabbitmq-dotnet-client)
-
-This repository contains source code of the [RabbitMQ .NET client](http://www.rabbitmq.com/dotnet.html).
-The client is maintained by the [RabbitMQ team at Pivotal](http://github.com/rabbitmq/).
-
-
-## Dependency (Binaries and Nuget Artifact)
-
-There are two ways to consume the client:
-
- * [NuGet artifacts](https://www.nuget.org/packages/RabbitMQ.Client/) (`4.x` and `3.6.x` series)
- * [Binary releases](https://github.com/rabbitmq/rabbitmq-server/releases) (`3.6.x` series, distributed with RabbitMQ releases)
-
-[Release archive up to 3.4.3](https://bintray.com/rabbitmq/archive/rabbitmq-dotnet-client) is available from Bintray.
