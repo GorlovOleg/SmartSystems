@@ -1,8 +1,7 @@
 
 ## SmartSystems
 Project prototipe to demonstrate using Web API Net Core 2 and Angular 5, PrimeNG 5.0,TypeScript, ECMAScript6, SCSS.
-#
-*Home Page is public available top-menu for "Login/Registration"and Main Drop Menu "Reports" 
+*[1]Home Page is public available top-menu for "Login/Registration"and Main Drop Menu "Reports" 
 	includes Sub-menu 1.BrokerageBrokers and 2.Brokers. 
 	(Menu is visible but access will be forbidden until user not authenticated for Reports)
 #
