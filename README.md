@@ -1,5 +1,5 @@
-# SmartSystems .NET Client Web API, Angular 5 [![Build status]
-## Project prototipe to demonstrate using .NET Core 2, Web API2, Angular 5, PrimeNG 5.0,TypeScript, ECMAScript6, SCSS.
+# SmartSystems .NET Client Web API, Angular 5
+## Project prototipe to demonstrate using .NET Core 2, Web API2, Angular 5, PrimeNG 5.0,TypeScript, ECMAScript6, SCSS.[![Build status](https://ci.appveyor.com/api/projects/status/33srpo7owl1h3y4e?svg=true)]
 * [1](Home Page is public available top-menu for "Login/Registration"and Main Drop Menu "Reports") 
 	includes Sub-menu 1.BrokerageBrokers and 2.Brokers. 
 	(Menu is visible but access will be forbidden until user not authenticated for Reports)
